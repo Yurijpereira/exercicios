@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(142, 33, 214);
+}
+#login{
+    padding: 10%;
+    margin: 5%;
+    box-shadow: 1px 1px 10px;
+    border-radius: 1%;
+    background-color: white;
+}
+input:focus{
+    outline: 0;
+}
+#cpf{
+    border: none;
+    border-bottom: 1px dotted rgb(142, 33, 214);
+}
+#senha{
+    border: none;
+    border-bottom: 1px dotted rgb(142, 33, 214);
+}
+#continuar{
+    color: grey;
+    width: 180px;
+    height: 50px;
+    opacity: 0.5;
+}
+#continuar:hover{
+    color: rgb(142, 33, 214);
+    transition: 0.4s;
+    opacity: 1;
+}
+.textos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(162, 61, 230);
+}
+a:hover{
+    color: rgb(174, 131, 202);
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card1{
+    margin: 3%;
+}
+.card2{
+    margin: 3%;
+}
+.card3{
+    margin: 3%;
+}
+.icon{
+    font-size: 40px;
+}
+.cabecalho{
+    display: flex;
+    align-content: flex-start;
+}
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+}
+.escrita{
+    margin: 0;
+    margin-left: 20px;
+}
