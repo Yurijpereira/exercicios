@@ -1,10 +1,10 @@
 package entities;
 
 public class Carro {
-	String cor;
-	String modelo;
-	double velocidadeAtual;
-	double velocidadeMaxima;
+	public String cor;
+	public String modelo;
+	public double velocidadeAtual;
+	public double velocidadeMaxima;
 	
 	// liga o carro
 	void liga() {
