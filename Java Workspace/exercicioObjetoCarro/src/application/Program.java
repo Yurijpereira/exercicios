@@ -39,20 +39,23 @@ public class Program {
 		
 		int seleciona = 0;
 		
-		while(seleciona != 1 || seleciona != 2 || seleciona != 3) {
+		while(seleciona != 1 && seleciona != 2 && seleciona != 3) {
 			
-			System.out.println("\nDigite o número do carro que deseja dirigir: ");
+			System.out.print("\nDigite o número do carro que deseja dirigir: ");
 			seleciona = sc.nextInt();
 			
 			switch(seleciona) {
 			case 1:
-				System.out.println("Carro 1 selecionado.");
+				System.out.println("\nCarro 1 selecionado.");
+				break;
 			case 2:
-				System.out.println("Carro 2 selecionado.");
+				System.out.println("\nCarro 2 selecionado.");
+				break;
 			case 3:
-				System.out.println("Carro 3 selecionado.");
+				System.out.println("\nCarro 3 selecionado.");
+				break;
 			default:
-				System.out.println("Número inválido!!");
+				System.out.println("\nNúmero inválido!!");
 				continue;
 			}
 		}
